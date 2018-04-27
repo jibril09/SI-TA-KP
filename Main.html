@@ -6,7 +6,7 @@
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 <body>
-<header class="navbar flex-column flex-md-row  bg-secondary">
+<header class="navbar sticky-top flex-column flex-md-row  bg-secondary" id="he-ad">
 	<div class="navbar">
 		<ul class="nav nav-pils flex-row">
 			<li class="nav-item" role="presentation">
@@ -37,6 +37,33 @@
     </button>
   </nav>
 </div>
-<p>Percobaan aja we ini ma</p>
+<br>
+
+<div class="container col-md-4 mt-5">
+  <form class="form bg-secondary form-control">
+    <div class="form-group">
+      <label for="inputUsername" class="col-sm-2 control-label text-white">Username</label>
+      <div class="col-sm-10">
+        <input type="username" class="form-control" id="inputUsername" placeholder="Username">
+      </div>
+    </div>
+
+    <div class="form-group">
+      <label for="inputPassword" class="col-sm-2 control-label text-white">Password</label>
+      <div class="col-sm-10">
+        <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+        <small id="passwordHelpInline" class="text-white">Must be 8-20 characters long.</small>
+      </div>
+    </div>
+
+    <div class="form-group">
+      <div class="col-sm-offset-2 col-sm-10">
+        <a role="submit" class="btn btn-primary" href="Main.html">Sign in</a> 
+      </div>
+    </div>
+  </form>
+</div>
+
+
 </body>
 </html>
